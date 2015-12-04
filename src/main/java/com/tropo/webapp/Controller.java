@@ -140,7 +140,7 @@ public class Controller {
         RecordAction recordAction = tropo.record(NAME("phprecord"), URL(info.getBaseUri() + "dump"), BARGEIN(false), MAX_SILENCE(5.0f),
                 createKey("maxTime", 300.0f), ATTEMPTS(2), TIMEOUT(10.0f), INTERDIGIT_TIMEOUT(1));
         
-        recordAction.and(Do.say(VALUE("Please record your message after the beep")));
+        recordAction.and(Do.say(VALUE("Please record your message after the beep, press pound to finish the recording")));
         
         recordAction.transcription(ID("phprecord-transcription"), URL("mailto:hemantsonu20@gmail.com"), EMAIL_FORMAT("encoded"));
         recordAction.choices(TERMINATOR("#"));
