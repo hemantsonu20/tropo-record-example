@@ -5,8 +5,8 @@ To record a prompt follow the following steps.
 * Deploy an application by building a war from this repository.
 * Sign in/sign up at http://tropo.com
 * Create a application at http://tropo.com with following setting.
-    Type of Application : Web (Http) Api
-    Url : ${deployed-application-url}/record
+    * Type of Application : Web (Http) Api
+    * Url : ${deployed-application-url}/record
 * Add a number to your application.
 * Dial the number via skype / sip phone.
 * Follow the instruction you listen.
