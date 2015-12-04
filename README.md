@@ -1,5 +1,6 @@
 # tropo-record-example
-An example for recording a prompt on tropo
+
+### An example for recording a prompt on tropo
 
 To record a prompt follow the following steps.
 * Deploy an application by building a war from this repository.
