@@ -11,4 +11,4 @@ To record a prompt follow the following steps.
 * Add a number to your tropo application.
 * Dial the number via skype / sip phone.
 * Follow the instruction you listen.
-* Your recording will be saved to your local file system.
+* Your recording will be saved to your local file system where war is deployed.
